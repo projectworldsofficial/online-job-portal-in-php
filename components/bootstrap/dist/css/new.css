@@ -1,0 +1,120 @@
+.bgimage
+{
+    background-image: url('images/pants.jpg');
+    background-position: center center;
+    background-size: cover;
+    height: 200px;
+}
+.navbar-default
+{
+    border:none;
+    color:white;
+    background-color: #00C3FF;
+    border-color: yellow;
+    text-align: center;
+    text-shadow: inherit;
+}
+.navbar-default .navbar-nav>li>a 
+{
+    color: black;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus
+{
+    color: white;
+    background-color: pink;
+}
+
+.content
+{
+    padding-top: 70px;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: rgba(0, 195, 255, 0.02);
+
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover 
+{
+    color: oldlace;
+    background-color: #00C3FF;
+}
+
+.open .dropdown-menu>li>a 
+{
+    color: #FFD900;
+}
+.navbar-nav .open .dropdown-menu>li>a 
+{
+    color: black;
+}
+.navbar-default .navbar-nav .open .dropdown-menu>li>a 
+{
+    color: black;
+}
+.navbar-default .navbar-toggle .icon-bar 
+{
+    background-color: black;
+  
+}
+#logo:hover 
+{
+    transform: scale(1.1);
+}
+#logo
+{
+    transition: all 0.3s ease 0s;
+}
+a:hover 
+{
+    transform: scale(1.1);
+}
+a
+{
+    transition: all 0.3s ease 0s;
+}
+body
+{
+    padding-top: 70px;
+}
+/*.navbar-fixed-top
+{
+    height:80px;
+}*/
+
+.open .dropdown-menu>li>a:hover 
+{
+    transform: scale(1.1);;
+}
+.open .dropdown-menu>li>a
+{
+    transition: all 0.3s ease 0s;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: oldlace;
+}
+.navbar-default .navbar-nav>li>a:active {
+    color: oldlace;
+}
+
+.error {
+  color: red;
+}
+
+.thumbnail img {
+  width: 150px;
+  height: 200px;
+}
+.thumbnail {
+  height: 450px;
+}
+
+.cart img {
+  width: 60px;
+  height: 80px;
+}
